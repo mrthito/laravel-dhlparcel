@@ -2,7 +2,7 @@
 
 namespace MrThito\Laravel\Tests;
 
-use MrThito\DhlParcel\Client;
+use Mvdnbrk\DhlParcel\Client;
 use MrThito\Laravel\DhlParcelClientAdapter;
 use MrThito\Laravel\Facades\DhlParcel as DhlParcelFacade;
 

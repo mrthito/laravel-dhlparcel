@@ -2,7 +2,7 @@
 
 namespace MrThito\Laravel;
 
-use MrThito\DhlParcel\Client;
+use Mvdnbrk\DhlParcel\Client;
 
 class DhlParcelClientAdapter
 {
