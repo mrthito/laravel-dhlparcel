@@ -1,20 +1,20 @@
 <?php
 
-namespace Mvdnbrk\Laravel;
+namespace MrThito\Laravel;
 
-use Mvdnbrk\DhlParcel\Client;
+use MrThito\DhlParcel\Client;
 
 class DhlParcelClientAdapter
 {
     /**
-     * @var \Mvdnbrk\DhlParcel\Client
+     * @var \MrThito\DhlParcel\Client
      */
     protected $client;
 
     /**
      * Construct a new api adapter instance.
      *
-     * @param  \Mvdnbrk\DhlParcel\Client  $client
+     * @param  \MrThito\DhlParcel\Client  $client
      */
     public function __construct(Client $client)
     {
@@ -31,7 +31,7 @@ class DhlParcelClientAdapter
 
     /**
      * @param  string  $value
-     * @return \Mvdnbrk\Laravel\DhlParcelClientAdapter
+     * @return \MrThito\Laravel\DhlParcelClientAdapter
      */
     public function setAccountId(string $value)
     {
@@ -42,7 +42,7 @@ class DhlParcelClientAdapter
 
     /**
      * @param  string  $value
-     * @return \Mvdnbrk\Laravel\DhlParcelClientAdapter
+     * @return \MrThito\Laravel\DhlParcelClientAdapter
      */
     public function setApiKey(string $value)
     {
@@ -53,7 +53,7 @@ class DhlParcelClientAdapter
 
     /**
      * @param  string  $value
-     * @return \Mvdnbrk\Laravel\DhlParcelClientAdapter
+     * @return \MrThito\Laravel\DhlParcelClientAdapter
      */
     public function setUserId(string $value)
     {
@@ -63,7 +63,7 @@ class DhlParcelClientAdapter
     }
 
     /**
-     * @return \Mvdnbrk\DhlParcel\Endpoints\Labels
+     * @return \MrThito\DhlParcel\Endpoints\Labels
      */
     public function labels()
     {
@@ -71,7 +71,7 @@ class DhlParcelClientAdapter
     }
 
     /**
-     * @return \Mvdnbrk\DhlParcel\Endpoints\Shipments
+     * @return \MrThito\DhlParcel\Endpoints\Shipments
      */
     public function shipments()
     {
@@ -79,7 +79,7 @@ class DhlParcelClientAdapter
     }
 
     /**
-     * @return \Mvdnbrk\DhlParcel\Endpoints\ServicePoints
+     * @return \MrThito\DhlParcel\Endpoints\ServicePoints
      */
     public function servicePoints()
     {
@@ -87,7 +87,7 @@ class DhlParcelClientAdapter
     }
 
     /**
-     * @return \Mvdnbrk\DhlParcel\Endpoints\TrackTrace
+     * @return \MrThito\DhlParcel\Endpoints\TrackTrace
      */
     public function tracktrace()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mvdnbrk\Laravel;
+namespace MrThito\Laravel;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use Mvdnbrk\DhlParcel\Client;
+use MrThito\DhlParcel\Client;
 use Psr\Container\ContainerInterface;
 
 class DhlParcelServiceProvider extends ServiceProvider implements DeferrableProvider
