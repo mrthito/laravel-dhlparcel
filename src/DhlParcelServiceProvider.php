@@ -16,7 +16,7 @@ class DhlParcelServiceProvider extends ServiceProvider implements DeferrableProv
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/dhlparcel.php', 'dhlparcel');
+        $this->mergeConfigFrom(__DIR__ . '/../config/dhlparcel.php', 'dhlparcel');
 
         $this->registerDhlClient();
         $this->registerDhlAdapter();
@@ -61,7 +61,7 @@ class DhlParcelServiceProvider extends ServiceProvider implements DeferrableProv
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/dhlparcel.php' => config_path('dhlparcel.php'),
+                __DIR__ . '/../config/dhlparcel.php' => config_path('dhlparcel.php'),
             ], 'dhlparcel-config');
         }
     }

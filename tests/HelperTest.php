@@ -1,8 +1,8 @@
 <?php
 
-namespace Mvdnbrk\Laravel\Tests;
+namespace MrThito\Laravel\Tests;
 
-use Mvdnbrk\Laravel\DhlParcelClientAdapter;
+use MrThito\Laravel\DhlParcelClientAdapter;
 
 class HelperTest extends TestCase
 {

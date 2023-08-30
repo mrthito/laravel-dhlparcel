@@ -1,19 +1,19 @@
 <?php
 
-namespace Mvdnbrk\Laravel\Tests;
+namespace MrThito\Laravel\Tests;
 
-use Mvdnbrk\DhlParcel\Client;
-use Mvdnbrk\Laravel\DhlParcelClientAdapter;
+use MrThito\DhlParcel\Client;
+use MrThito\Laravel\DhlParcelClientAdapter;
 
 class DhlParcelClientAdapterTest extends TestCase
 {
     /**
-     * @var \Mvdnbrk\DhlParcel\Client
+     * @var \MrThito\DhlParcel\Client
      */
     protected $client;
 
     /**
-     * @var \Mvdnbrk\Laravel\DhlParcelClientAdapter
+     * @var \MrThito\Laravel\DhlParcelClientAdapter
      */
     protected $adapter;
 
@@ -66,8 +66,8 @@ class DhlParcelClientAdapterTest extends TestCase
      * Assert that the adapter endpoint method returns the same as the client attribute.
      * For example: $adapter->shipments() should be equal to $client->shipments.
      *
-     * @param  \Mvdnbrk\DhlParcel\Client  $client
-     * @param  \Mvdnbrk\Laravel\DhlParcelClientAdapter  $adapter
+     * @param  \MrThito\DhlParcel\Client  $client
+     * @param  \MrThito\Laravel\DhlParcelClientAdapter  $adapter
      * @param  string $endpoint
      * @return void
      *

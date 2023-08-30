@@ -1,10 +1,10 @@
 <?php
 
-namespace Mvdnbrk\Laravel\Tests;
+namespace MrThito\Laravel\Tests;
 
-use Mvdnbrk\DhlParcel\Client;
-use Mvdnbrk\Laravel\DhlParcelClientAdapter;
-use Mvdnbrk\Laravel\Facades\DhlParcel as DhlParcelFacade;
+use MrThito\DhlParcel\Client;
+use MrThito\Laravel\DhlParcelClientAdapter;
+use MrThito\Laravel\Facades\DhlParcel as DhlParcelFacade;
 
 class DhlParcelServiceProviderTest extends TestCase
 {
